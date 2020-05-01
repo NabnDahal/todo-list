@@ -1,0 +1,37 @@
+.error {
+  color: red;
+}
+
+ul.items li {
+  padding: 8px;
+  font-size: 17px;
+  border-bottom: #ccc 1px dashed;
+  list-style: none;
+  padding-left: 10px;
+}
+
+ul.items li a {
+  color: #666;
+}
+
+.msg {
+  padding: 5px 0;
+  border-top: #ccc solid 2px;
+  border-bottom: #ccc solid 2px;
+  margin-bottom: 3px;
+}
+
+.sidebar-nav input[type="text"],
+.sidebar-nav input[type="password"] {
+  width: 210px;
+}
+.card {
+  box-shadow: 0px 0px 3px 0px #d6d6d6;
+}
+.navbar {
+  box-shadow: 0 3px 3px 0px #928c8c;
+}
+li.list-group-item {
+  display: flex;
+  justify-content: space-between;
+}
