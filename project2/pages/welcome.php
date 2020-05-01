@@ -38,8 +38,8 @@ if ($_SESSION['logged_in']) {
 		echo 'There are no lists available -<a href="index.php?page=new_list">Create One Now</a>';
 	}
 } else {
-	echo "<p>myTasks is a small but helpful application where you can create and manage tasks to make your life easier. 
-Just register and login and you can start adding tasks";
+	echo '<p>myTasks is a small but helpful application where you can create and manage tasks to make your life easier. 
+Just register and login and you can start adding tasks</p><a href="index.php?page=register" class="btn btn-outline-info my-2 my-sm-0">Register Now!</a>';
 }
 echo '</div>';
 ?>
